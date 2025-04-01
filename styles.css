@@ -6,3 +6,45 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+/* 
+MD2Canvas 插件样式
+*/
+
+.md2canvas-description {
+    margin-bottom: 20px;
+    color: var(--text-muted);
+}
+
+.md2canvas-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.md2canvas-ribbon-icon:hover {
+    color: var(--interactive-accent);
+}
+
+.md2canvas-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.md2canvas-loading-spinner {
+    border: 3px solid var(--background-modifier-border);
+    border-top: 3px solid var(--interactive-accent);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: md2canvas-spin 1s linear infinite;
+    margin-right: 10px;
+}
+
+@keyframes md2canvas-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
