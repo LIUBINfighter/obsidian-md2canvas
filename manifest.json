@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "obsidian-md2canvas",
+	"name": "MD2Canvas",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "将指定笔记的出链入链关系可视化为Canvas白板，支持设置追踪深度。",
+	"author": "",
+	"authorUrl": "",
+	"fundingUrl": "",
 	"isDesktopOnly": false
 }
